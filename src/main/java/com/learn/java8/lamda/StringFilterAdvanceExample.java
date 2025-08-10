@@ -1,3 +1,5 @@
+package com.learn.java8.lamda;
+
 import java.util.Arrays;
 
 @FunctionalInterface
