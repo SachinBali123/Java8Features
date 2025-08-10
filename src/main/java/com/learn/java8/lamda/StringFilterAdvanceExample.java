@@ -15,7 +15,7 @@ public class StringFilterAdvanceExample {
         Arrays.stream(filterStringArray(fruitStringArray, filterString)).forEach(System.out::println);
     }
 
-    private static String[] filterStringArray(String[] stringArray, FilterString filterString){
+     private static String[] filterStringArray(String[] stringArray, FilterString filterString){
         return Arrays.stream(stringArray)
                 .filter(filterString::isRequiredIncluded)
                 .toList().toArray(new String[0]);
